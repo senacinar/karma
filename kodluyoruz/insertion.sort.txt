@@ -1,0 +1,17 @@
+[22,27,16,2,18,6] -> Insertion Sort
+
+Yukarı verilen dizinin sort türüne göre aşamaları:
+[2,27,16,22,18,6] -- en küçük sayı olan "2" en baştaki sayı ile yer değiştiriyor.
+[2,6,16,22,18,27] -- ikinci küçük sayı olan "6" ikinci sayı ile yer değiştiriyor.
+
+Üçüncü en küçük sayı "16" olduğu için yerinde sabit kalıyor.
+
+[2,6,16,18,22,27] -- dördüncü en küçük sayı olan "18" dördüncü sayı ile yer değiştiryor.
+Tamamen küçükten büyüğe sıralanan bir dizi düzenlendi. = "[2,6,16,18,22,27]"
+
+
+Big-O gösterimini yazınız.
+Big-0 --> n.(n+1)/2 n^2 0(nlogn)
+
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? 
+Dizide 18 sayısı verilerin orta kısımında gözüktüğü için; dağılım olarak ortadan ikiye bölebilir vaziyettedir. Bu sebeple de olması gereken yapıdadır. Averege case kapsamına girer.
